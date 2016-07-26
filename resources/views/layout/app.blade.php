@@ -209,7 +209,7 @@
                         <div class="g-heading-v9 text-center g-mb-30">
                             <h2><strong>Hizmetlerimiz</strong></h2>
                         </div>
-                        <p class="text-center g-fs-16 g-mb-60">Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor lorem eros vel</p>
+                        {{-- <p class="text-center g-fs-16 g-mb-60">Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra eros, fringilla porttitor lorem eros vel</p> --}}
                     </div>
                 </div>
 
@@ -218,14 +218,14 @@
                         <i class="fa fa-television pull-left g-theme-text-color-1"></i>
                         <div class="content-boxes-in-v7">
                             <h4 class=""><strong>Reklam</strong></h4>
-                            <p>Proin dignissim eget enim id aliquam. Proin ornare dictum leo, non elementum tellus molestie et. Vivamus sit amet scelerisque leo. In eu commodo est. Sed bibendum a metus ac sollicitudin. Curabitur elementum placerat elit vel accumsan.</p>
+                            {{-- <p>Proin dignissim eget enim id aliquam. Proin ornare dictum leo, non elementum tellus molestie et. Vivamus sit amet scelerisque leo. In eu commodo est. Sed bibendum a metus ac sollicitudin. Curabitur elementum placerat elit vel accumsan.</p> --}}
                         </div>
                     </div>
                     <div class="col-sm-6 content-boxes-v7">
                         <i class="fa fa-camera-retro pull-left g-theme-text-color-1"></i>
                         <div class="content-boxes-in-v7">
                             <h4 class=""><strong>Prodüksiyon</strong></h4>
-                            <p>nteger commodo est id erat bibendum, eu convallis dolor tempus. Fusce mollis blandit eros. Nunc quis sapien in massa varius convallis at sed justo. Praesent nec consectetur nibh, sed lobortis turpis.</p>
+                            {{-- <p>nteger commodo est id erat bibendum, eu convallis dolor tempus. Fusce mollis blandit eros. Nunc quis sapien in massa varius convallis at sed justo. Praesent nec consectetur nibh, sed lobortis turpis.</p> --}}
                         </div>
                     </div>
                 </div>
@@ -235,14 +235,14 @@
                         <i class="fa fa-comments-o pull-left g-theme-text-color-1"></i>
                         <div class="content-boxes-in-v7">
                             <h4 class=""><strong>Danışmanlık</strong></h4>
-                            <p>Aenean lobortis ante ac porttitor eleifend. Morbi massa justo, gravida sollicitudin tortor vel, dignissim viverra lectus. In varius blandit condimentum. Pellentesque rutrum mauris ornare libero imperdiet pellentesque.</p>
+                            {{-- <p>Aenean lobortis ante ac porttitor eleifend. Morbi massa justo, gravida sollicitudin tortor vel, dignissim viverra lectus. In varius blandit condimentum. Pellentesque rutrum mauris ornare libero imperdiet pellentesque.</p> --}}
                         </div>
                     </div>
                     <div class="col-sm-6 content-boxes-v7">
                         <i class="fa fa-calendar pull-left g-theme-text-color-1"></i>
                         <div class="content-boxes-in-v7">
                             <h4 class=""><strong>Organizasyon</strong></h4>
-                            <p>Nam et nulla rutrum, dignissim eros quis, dictum eros. In ullamcorper molestie neque, ac faucibus felis efficitur sed. Nam et tristique nisi. Cras iaculis venenatis libero. Suspendisse fermentum, ipsum ac facilisis elementu.</p>
+                            {{-- <p>Nam et nulla rutrum, dignissim eros quis, dictum eros. In ullamcorper molestie neque, ac faucibus felis efficitur sed. Nam et tristique nisi. Cras iaculis venenatis libero. Suspendisse fermentum, ipsum ac facilisis elementu.</p> --}}
                         </div>
                     </div>
                 </div>
@@ -275,12 +275,11 @@
                                 <div class="g-heading-v9 g-mb-30">
                                     <h2 class=""><strong>Bize Ulaşın</strong></h2>
                                 </div>
-                                <p class="g-fs-16 g-mb-60">In eu commodo est. Sed bibendum a metus ac sollicitudin. Curabitur elementum placerat elit vel accumsan.</p>
-                                <ul class="list-unstyled g-fs-12 address-list text-uppercase">
-                                    <li><i class="glyphicon glyphicon-map-marker g-mr-15"></i> <em>Address:</em> <strong>In sed lectus tincidunt</strong></li>
-                                    <li><i class="glyphicon glyphicon-earphone g-mr-15"></i> <em>Phone Number:</em> <strong>+48 555 2566 112</strong></li>
-                                    <li><i class="fa fa-envelope g-mr-15"></i> <em>Email:</em> <strong>marketing@unify.com</strong></li>
-                                    <li><i class="fa fa-comments g-mr-15"></i> <em>Toll Free:</em> <strong>+48 555 1258 987</strong></li>
+                                {{-- <p class="g-fs-16 g-mb-60">In eu commodo est. Sed bibendum a metus ac sollicitudin. Curabitur elementum placerat elit vel accumsan.</p> --}}
+                                <ul class="list-unstyled g-fs-12 address-list ">
+                                    <li><i class="glyphicon glyphicon-map-marker g-mr-15"></i> <em>Address:</em> <strong>Barbaros Mah. Uğur Sok. No: 4/A, Üsküdar / İstanbul</strong></li>
+                                    <li><i class="fa fa-envelope g-mr-15"></i> <em>Email:</em> <strong>kirazbahcesi@outlook.com</strong></li>
+                                    <li><i class="fa fa-phone g-mr-15"></i> <em>Phone:</em> <strong>+90 542 506 4603</strong></li>
                                 </ul>
                             </div>
                         </div>
@@ -295,7 +294,7 @@
             <section class="footer-section container g-pt-30">
                 <div class="row">
                     <div class="col-sm-4">
-                        {{-- <h5 class="text-uppercase g-mb-20"><strong>Text widget</strong></h5>
+                        {{-- <h5 class=" g-mb-20"><strong>Text widget</strong></h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae est lorem. Aenean imperdiet nisi a dolor condimentum, id ullamcorper lacus vestibulum. Praesent pulvinar gravida. Aenean lobortis ante ac porttitor eleifend.</p> --}}
                         <ul class="social-icons-v-2">
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -305,7 +304,7 @@
                         </ul>
                     </div>
                     {{-- <div class="col-sm-4 col-xs-6 col-3xs-12 g-mb-40">
-                        <h5 class="text-uppercase g-mb-20"><strong>Usefull Links</strong></h5>
+                        <h5 class=" g-mb-20"><strong>Usefull Links</strong></h5>
                         <ul class="row marked-list g-theme-text-color-1">
                             <li class="col-md-6"><i class="fa fa-circle"></i> <a href="#">Proin vitae est lorem</a></li>
                             <li class="col-md-6"><i class="fa fa-circle"></i> <a href="#">Morbi massa justo</a></li>
@@ -322,7 +321,7 @@
                         </ul>
                     </div> --}}
                     {{-- <div class="col-sm-4 col-xs-6 col-3xs-12 g-mb-40">
-                        <h5 class="text-uppercase g-mb-20"><strong>Subscribe</strong></h5>
+                        <h5 class=" g-mb-20"><strong>Subscribe</strong></h5>
                         <form class="sky-form" action="#">
                             <label class="input">
                                     <input type="text" placeholder="Your name" name="name" id="name">
